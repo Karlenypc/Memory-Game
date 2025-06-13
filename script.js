@@ -13,24 +13,24 @@ let secondCard = false;
 
 //Object's Array  
 const farmItems = [
-  { name: "farmer", image: "agricultor.png" },
-  { name: "pumpkin", image: "calabaza.png" },
-  { name: "wheelbarrow", image: "carretilla.png" },
-  { name: "beeHoney", image: "colmena.png" },
-  { name: "scarecrow", image: "espantapajaros.png" },
-  { name: "sunflower", image: "flor.png" },
-  { name: "fruits", image: "frutas.png" },
-  { name: "farm", image: "granja.png" },
-  { name: "eggs", image: "huevos.png" },
-  { name: "milk", image: "leche.png" },
-  { name: "hose", image: "manguera.png" },
-  { name: "sheep", image: "oveja.png" },
-  { name: "shovel", image: "pala.png" },
-  { name: "wateringCan", image: "regadera.png" },
-  { name: "seeds", image: "semillas.png" },
-  { name: "tractor", image: "tractor.png" },
-  { name: "cow", image: "vaca.png" },
-  { name: "weatherVane", image: "veleta.png" }
+  { name: "farmer", image: "Farm-Icons/agricultor.png" },
+  { name: "pumpkin", image: "Farm-Icons/calabaza.png" },
+  { name: "wheelbarrow", image: "Farm-Icons/carretilla.png" },
+  { name: "beeHoney", image: "Farm-Icons/colmena.png" },
+  { name: "scarecrow", image: "Farm-Icons/espantapajaros.png" },
+  { name: "sunflower", image: "Farm-Icons/flor.png" },
+  { name: "fruits", image: "Farm-Icons/frutas.png" },
+  { name: "farm", image: "Farm-Icons/granja.png" },
+  { name: "eggs", image: "Farm-Icons/huevos.png" },
+  { name: "milk", image: "Farm-Icons/leche.png" },
+  { name: "hose", image: "Farm-Icons/manguera.png" },
+  { name: "sheep", image: "Farm-Icons/oveja.png" },
+  { name: "shovel", image: "Farm-Icons/pala.png" },
+  { name: "wateringCan", image: "Farm-Icons/regadera.png" },
+  { name: "seeds", image: "Farm-Icons/semillas.png" },
+  { name: "tractor", image: "Farm-Icons/tractor.png" },
+  { name: "cow", image: "Farm-Icons/vaca.png" },
+  { name: "weatherVane", image: "Farm-Icons/veleta.png" }
 ];
 
 //Initial Time
@@ -162,6 +162,7 @@ const matrixGenerator = (cardValues, size = 4) => {
             <h4>Moves: ${movesCount}</h4>`;
               stopGame(); 
             }
+
           } else {
             //if the cards dont match
             //flip the cards back to normal
