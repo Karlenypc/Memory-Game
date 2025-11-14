@@ -97,8 +97,8 @@ const matrixGenerator = (cardValues, size = 4) => {
   creating a new array that contains two copies of each element.*/
   cardValues = [...cardValues, ...cardValues];
 
-  //simple shuffle
-  cardValues.sort(() => Math.random() - 0.5); 
+  //Improved Version of Shuffle with Fisher–Yates Algorithm
+  cardValues = shuffleArray(cardValues);
 
   for (let i = 0; i < size * size; i++) {
     /*
@@ -182,12 +182,21 @@ const matrixGenerator = (cardValues, size = 4) => {
   });
 };
 
+// Shuffle array of cards with Fisher–Yates Algorithm
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 const startGame = () => {
   movesCount = 0;
   seconds = 0;
   minutes = 0;
 
-  //controls amd buttons visibility
+  //controls and buttons visibility
   controls.classList.add("hide");
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
