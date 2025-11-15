@@ -13,8 +13,8 @@ The game flow:
 3. Duplicate cards → shuffle → render grid.
 4. User flips card → save first/second card.
 5. Compare:
-    Match → lock cards
-    Not match → flip back after delay
+    - Match → lock cards
+    - Not match → flip back after delay
 6. Track moves + win progress.
 7. When all matches found → show result.
 
