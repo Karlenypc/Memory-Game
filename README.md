@@ -59,15 +59,15 @@ The game uses a dynamic object array with 18 unique farm-themed icons (farmer, p
 
 ## 🐄 Game Preview 🎮
 <p>
-<img src="./Game-Preview/Image1.png" alt="Preview Screenshot" width="170">
+<img src="./Game-Preview/Image1.png" alt="Preview Screenshot" width="150">
 
-<img src="./Game-Preview/Image2.png" alt="Preview Screenshot" width="181">
+<img src="./Game-Preview/Image2.png" alt="Preview Screenshot" width="161">
 
-<img src="./Game-Preview/Image3.png" alt="Preview Screenshot" width="181">
+<img src="./Game-Preview/Image3.png" alt="Preview Screenshot" width="161">
 
-<img src="./Game-Preview/Image4.png" alt="Preview Screenshot" width="181">
+<img src="./Game-Preview/Image4.png" alt="Preview Screenshot" width="161">
 
-<img src="./Game-Preview/Image5.png" alt="Preview Screenshot" width="170">
+<img src="./Game-Preview/Image5.png" alt="Preview Screenshot" width="150">
 </p>
 
 ---
